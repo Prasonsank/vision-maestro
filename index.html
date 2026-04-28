@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Maestro | Advanced Eye Care Centre & Opticals Hanamkonda</title>
+    <meta name="description" content="Vision Maestro: Best Eye Hospital in Hanamkonda & Warangal. Specialized in Cataract, LASIK, Glaucoma, and High-Quality Precision Opticals.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        
+        .glass-nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid #e2e8f0; }
+        .bg-medical { background-color: #f0f9ff; }
+        .text-blue-primary { color: #2563eb; }
+        .bg-blue-primary { background-color: #2563eb; }
+        
+        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        .whatsapp-float {
+            background-color: #25d366;
+            box-shadow: 0 4px 14px 0 rgba(37, 211, 102, 0.5);
+        }
+        
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 overflow-x-hidden">
+
+    <nav class="glass-nav fixed w-full z-50 top-0 left-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 md:h-20 items-center">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="eye" class="text-blue-primary w-6 h-6 md:w-8 md:h-8"></i>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-base md:text-lg leading-none text-slate-900 tracking-tight">VISION MAESTRO</span>
+                        <span class="text-[8px] md:text-[10px] font-semibold text-blue-primary tracking-widest uppercase">Advanced Eye Care & Opticals</span>
+                    </div>
+                </div>
+                <div class="hidden lg:flex space-x-6 font-medium text-sm">
+                    <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                    <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                    <a href="#opticals" class="hover:text-blue-600 transition">Optical Store</a>
+                    <a href="#faq" class="hover:text-blue-600 transition">FAQs</a>
+                    <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="flex gap-2">
+                    <a href="tel:09381898569" class="bg-blue-primary text-white px-4 md:px-5 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-bold flex items-center gap-2 hover:bg-blue-700 transition">
+                        <i data-lucide="phone-call" class="w-4 h-4"></i> <span>Call</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-16 md:pt-40 md:pb-20 bg-medical px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div class="animate__animated animate__fadeInLeft text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6 border border-blue-100">
+                    <span class="flex text-yellow-400">★★★★★(100+)</span>
+                    <span class="text-[10px] md:text-xs font-bold text-slate-600 uppercase tracking-wider">Top Rated in Hanamkonda</span>
+                </div>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-6 leading-tight">
+                    Excellence in Vision, <br><span class="text-blue-primary">Precision in Care.</span>
+                </h1>
+                <p class="text-base md:text-lg text-slate-600 mb-8 md:mb-10 max-w-xl mx-auto lg:mx-0">
+                    Welcome to Vision Maestro. We provide advanced diagnostic eye testing, world-class surgery, and premium eyewear at Gokulnagar.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                    <a href="#booking" class="bg-blue-primary text-white px-8 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl transition">Book Eye Test</a>
+                    <a href="#opticals" class="bg-white border border-slate-200 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition">Visit Opticals</a>
+                </div>
+            </div>
+            <div class="relative animate__animated animate__fadeInRight mt-8 lg:mt-0">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" alt="Vision Maestro Clinic" class="rounded-3xl shadow-xl w-full">
+                <div class="absolute -bottom-4 -right-2 md:-bottom-6 md:-right-6 bg-white p-4 md:p-6 rounded-2xl shadow-xl border border-slate-100">
+                    <p class="text-2xl md:text-3xl font-bold text-blue-primary">40,000+</p>
+                    <p class="text-[10px] md:text-xs font-semibold text-slate-500 uppercase tracking-widest">Treatments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doctors" class="py-16 md:py-24 bg-slate-50 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-4xl font-bold text-slate-900">Meet Our Experts</h2>
+                <div class="w-16 md:w-20 h-1.5 bg-blue-primary mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="flex justify-center">
+                <div class="max-w-sm w-full bg-white rounded-3xl overflow-hidden shadow-md reveal border border-slate-100">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400&h=400" alt="Doctor" class="w-full h-80 object-cover">
+                    <div class="p-8 text-center">
+                        <h3 class="text-2xl font-bold text-slate-900">Dr. Tharun</h3>
+                        <p class="text-blue-primary font-semibold mb-4">Senior Consultant Ophthalmologist</p>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Chief Optometrist at Vision Maestro Advanced Eye Care Centre, specializing in comprehensive eye exams, contact lenses, and vision therapy. Dedicated to providing personalized, high-quality eye care.
+                        </p>
+                        <div class="mt-6 pt-6 border-t border-slate-50 flex justify-center gap-4">
+                            <span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wide">MBBS</span>
+                            <span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wide">MS (Ophth)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-16 md:py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl md:text-4xl font-bold text-slate-900">Clinic Gallery</h2>
+                <p class="text-slate-500 mt-2">Glimpses of our advanced care facility</p>
+                <div class="w-16 md:w-20 h-1.5 bg-blue-primary mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+       <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/vision-maestro-clinic-front-warangal.jpeg"
+             alt="Vision Maestro clinic front view in Warangal"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/vision-maestro-opticals-frames-collection.jpeg"
+             alt="Opticals frames collection at Vision Maestro Warangal"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/vision-maestro-doctor-consultation-eye-care.jpeg"
+             alt="Doctor consultation for eye care at Vision Maestro"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/vision-maestro-eye-checkup-equipment-warangal.jpeg"
+             alt="Eye checkup equipment at Vision Maestro in Warangal"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/optical-frames-store-warangal.jpeg"
+             alt="Optical frames store at Vision Maestro Warangal"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+    <div class="gallery-item overflow-hidden rounded-2xl md:rounded-3xl shadow-sm reveal">
+        <img src="images/vision-maestro-reception-waiting-area.jpeg"
+             alt="Reception and waiting area at Vision Maestro eye clinic in Warangal"
+             class="w-full h-48 md:h-72 object-cover"
+             loading="lazy">
+    </div>
+
+</div>
+        </div>
+    </section>
+    <section id="services" class="py-16 md:py-24 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-4xl font-bold text-slate-900">Comprehensive Eye Services</h2>
+                <div class="w-16 md:w-20 h-1.5 bg-blue-primary mx-auto mt-4 rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div class="p-6 md:p-8 bg-white border border-slate-100 rounded-3xl shadow-sm reveal">
+                    <i data-lucide="scan-eye" class="text-blue-primary mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">Refraction & Eye Checkup</h3>
+                    <p class="text-sm text-slate-500">Comprehensive 21-step vision testing using advanced automated refractometers.</p>
+                </div>
+                <div class="p-6 md:p-8 bg-white border border-slate-100 rounded-3xl shadow-sm reveal">
+                    <i data-lucide="layers" class="text-blue-primary mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">Cataract & Glaucoma</h3>
+                    <p class="text-sm text-slate-500">Modern micro-incision surgery and early detection pressure testing.</p>
+                </div>
+                <div class="p-6 md:p-8 bg-white border border-slate-100 rounded-3xl shadow-sm reveal">
+                    <i data-lucide="monitor" class="text-blue-primary mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">Computer Vision Syndrome</h3>
+                    <p class="text-sm text-slate-500">Specialized treatment for digital eye strain, dryness, and fatigue.</p>
+                </div>
+                <div class="p-6 md:p-8 bg-white border border-slate-100 rounded-3xl shadow-sm reveal">
+                    <i data-lucide="baby" class="text-blue-primary mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">Pediatric Eye Care</h3>
+                    <p class="text-sm text-slate-500">Child-friendly eye exams to detect squint and refractive errors early.</p>
+                </div>
+                <div class="p-6 md:p-8 bg-white border border-slate-100 rounded-3xl shadow-sm reveal">
+                    <i data-lucide="zap" class="text-blue-primary mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">LASIK & Retina Care</h3>
+                    <p class="text-sm text-slate-500">Advanced laser vision correction and diabetic retinopathy screening.</p>
+                </div>
+                <div class="p-6 md:p-8 bg-blue-primary text-white rounded-3xl shadow-lg reveal">
+                    <i data-lucide="glasses" class="mb-4 w-8 h-8 md:w-10 md:h-10"></i>
+                    <h3 class="font-bold text-lg md:text-xl mb-2">Contact Lenses</h3>
+                    <p class="text-sm opacity-90">Expert fitting for soft, toric, and multi-focal contact lenses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opticals" class="py-16 md:py-24 bg-slate-50 px-4 reveal">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-10 md:gap-16 items-center">
+            <div>
+                <span class="text-blue-primary font-bold tracking-widest uppercase text-xs md:text-sm">Vision Maestro Opticals</span>
+                <h2 class="text-2xl md:text-4xl font-bold text-slate-900 mt-4 mb-6">High-Quality Precision Eyewear</h2>
+                <p class="text-slate-600 text-base md:text-lg mb-8 leading-relaxed">
+                    We believe that spectacles are more than just an accessory—they are medical devices. At Vision Maestro, we provide high-precision lenses customized to your unique prescription.
+                </p>
+                <ul class="space-y-4 mb-10">
+                    <li class="flex items-center gap-3 text-slate-700 font-medium text-sm md:text-base">
+                        <i data-lucide="check-circle" class="text-green-500 w-5 h-5"></i> International Designer Frames
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700 font-medium text-sm md:text-base">
+                        <i data-lucide="check-circle" class="text-green-500 w-5 h-5"></i> Digital High-Definition Lenses
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700 font-medium text-sm md:text-base">
+                        <i data-lucide="check-circle" class="text-green-500 w-5 h-5"></i> Blue-Cut & Anti-Glare Coatings
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700 font-medium text-sm md:text-base">
+                        <i data-lucide="check-circle" class="text-green-500 w-5 h-5"></i> Optical Lenses for Clear & Comfortable Vision
+                    </li>
+                </ul>
+                <a href="https://wa.me/919381898569" target="_blank" class="inline-flex bg-blue-primary text-white px-6 py-3 rounded-xl font-bold items-center gap-2 hover:bg-blue-700 transition w-full sm:w-auto justify-center">
+                    Explore Frames
+                </a>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 mt-8 lg:mt-0">
+                <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&q=80&w=400"
+                     alt="Spectacles and designer frames display"
+                     class="rounded-2xl shadow-md">
+
+                <div class="pt-8 md:pt-12">
+                    <img src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&q=80&w=400"
+                         alt="Optical store interior with frames"
+                         class="rounded-2xl shadow-md">
+                </div>
+
+                <img src="https://plus.unsplash.com/premium_photo-1671656333570-92409d0e58a5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                     alt="Contact and optical lenses"
+                     class="rounded-2xl shadow-md">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="booking" class="py-16 md:py-20 px-4">
+        <div class="max-w-3xl mx-auto bg-white p-6 md:p-12 rounded-3xl shadow-2xl border border-slate-100 reveal">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Request an Eye Test</h2>
+                <p class="text-slate-500 mt-2 text-sm">Fill in your details for a priority checkup</p>
+            </div>
+           <form id="waForm" class="space-y-4 md:space-y-5">
+    <div class="grid md:grid-cols-2 gap-4 md:gap-5">
+        <input id="name" type="text" placeholder="Full Name" required
+            class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none">
+
+        <input id="mobile" type="tel" placeholder="Mobile Number" required
+            class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none">
+    </div>
+
+    <select id="service" required
+        class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none appearance-none">
+        <option value="">Select Service</option>
+        <option>Comprehensive Eye Exam</option>
+        <option>Cataract Consultation</option>
+        <option>Buying Specs/Frames</option>
+        <option>Computer Vision Syndrome Treatment</option>
+    </select>
+
+    <button type="submit"
+        class="w-full bg-blue-primary text-white py-4 rounded-xl font-bold text-lg hover:shadow-lg transition">
+        Submit Request
+    </button>
+</form>
+        </div>
+    </section>
+
+    <section id="faq" class="py-16 md:py-24 bg-white px-4 reveal">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 md:mb-12">Common Eye Care FAQs</h2>
+            <div class="space-y-4">
+                <details class="group p-5 md:p-6 border border-slate-200 rounded-2xl cursor-pointer">
+                    <summary class="font-bold text-base md:text-lg list-none flex justify-between items-center">
+                        What is included in a 21-step eye test?
+                        <i data-lucide="chevron-down" class="group-open:rotate-180 transition w-5 h-5"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4 text-sm md:text-base leading-relaxed">It includes auto-refraction, muscle balance testing, slit-lamp biomicroscopy, intraocular pressure measurement, and a detailed retina screening.</p>
+                </details>
+                <details class="group p-5 md:p-6 border border-slate-200 rounded-2xl cursor-pointer">
+                    <summary class="font-bold text-base md:text-lg list-none flex justify-between items-center">
+                        How long does it take to get my new glasses?
+                        <i data-lucide="chevron-down" class="group-open:rotate-180 transition w-5 h-5"></i>
+                    </summary>
+                    <p class="text-slate-600 mt-4 text-sm md:text-base leading-relaxed">Most single-vision glasses are ready within 24 hours. Complex lenses may take 3-5 working days for precision surfacing.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-20 bg-medical px-4">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10">
+            <div>
+                <h2 class="text-2xl md:text-3xl font-bold mb-8 text-slate-900">Visit Vision Maestro</h2>
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <i data-lucide="map-pin" class="text-blue-primary w-5 h-5 mt-1"></i>
+                        <p class="text-sm md:text-base text-slate-700">Gokul Plaza, Near Old Bus Depot, Circuit Colony,<br>Gokulnagar, Hanamkonda, Telangana 506001</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="phone" class="text-blue-primary w-5 h-5"></i>
+                        <p class="text-sm md:text-base text-slate-700">09381898569</p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <i data-lucide="clock" class="text-blue-primary w-5 h-5"></i>
+                        <p class="text-sm md:text-base text-slate-700">Mon - Sat: 09:30 AM - 08:30 PM</p>
+                    </div>
+                </div>
+                <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                    <a href="tel:09381898569" class="bg-blue-primary text-white px-6 py-3 rounded-xl font-bold flex items-center justify-center gap-2 transition">
+                        <i data-lucide="phone-call" class="w-4 h-4"></i> Call Now
+                    </a>
+                    <a href="https://maps.google.com/?q=Vision+Maestro+Hanamkonda" target="_blank" class="border border-slate-200 bg-white px-6 py-3 rounded-xl font-bold flex items-center justify-center gap-2">
+                        <i data-lucide="navigation" class="w-4 h-4"></i> Directions
+                    </a>
+                </div>
+            </div>
+        <div class="h-64 md:h-96 bg-slate-200 rounded-3xl overflow-hidden shadow-inner border-4 border-white relative">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.4312868024404!2d79.552059!3d18.0051774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334f6cbebc633b%3A0x5af4e79890d40ac5!2sVision%20Maestro!5e0!3m2!1sen!2sin!4v1777359626563!5m2!1sen!2sin" 
+        class="absolute top-0 left-0 w-full h-full border-0"
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-14 md:py-20 px-4">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12">
+
+        <div>
+            <h3 class="font-bold text-2xl mb-4">VISION MAESTRO</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                Advanced Eye Care Centre & Opticals providing comprehensive eye examinations,
+                treatments, and premium eyewear solutions in Hanamkonda & Warangal.
+            </p>
+            <p class="text-slate-400 text-sm">
+                Your Vision, Our Mission.
+            </p>
+        </div>
+
+        <div>
+            <h4 class="font-bold mb-4">Quick Links</h4>
+            <ul class="text-slate-400 text-sm space-y-2">
+                <li><a href="#services" class="hover:text-white transition">Eye Checkup</a></li>
+                <li><a href="#opticals" class="hover:text-white transition">Optical Store</a></li>
+                <li><a href="#booking" class="hover:text-white transition">Book Appointment</a></li>
+                <li><a href="#gallery" class="hover:text-white transition">Gallery</a></li>
+                <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-bold mb-4">Contact Us</h4>
+            <ul class="text-slate-400 text-sm space-y-3">
+                <li>📍 Hanamkonda, Warangal, Telangana</li>
+                <li>📞 +91 93818 98569</li>
+                <li>✉️ visionmaestro@gmail.com</li>
+                <li>🕒 Mon – Sat: 9:00 AM – 8:00 PM</li>
+                <li>🕒 Sunday: Emergency by Appointment</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="font-bold mb-4">Connect With Us</h4>
+            <div class="flex flex-col gap-3">
+                <a href="#" class="text-slate-400 hover:text-white transition text-sm flex items-center gap-2">
+                    FACEBOOK
+                </a>
+
+                <a href="https://www.instagram.com/visionmaestrohanamkonda/" target="_blank" class="text-slate-400 hover:text-white transition text-sm flex items-center gap-2">
+                    INSTAGRAM
+                </a>
+
+                <a href="mailto:visionmaestro@gmail.com" class="text-slate-400 hover:text-white transition text-sm flex items-center gap-2">
+                    EMAIL US
+                </a>
+
+                <a href="https://wa.me/919381898569" target="_blank" class="text-slate-400 hover:text-white transition text-sm flex items-center gap-2">
+                    WHATSAPP
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto mt-14 pt-8 border-t border-slate-800 text-center text-slate-500 text-xs">
+        <p>© 2026 Vision Maestro – Advanced Eye Care Centre & Opticals. All rights reserved.</p>
+    </div>
+</footer>
+
+    <a href="https://wa.me/919381898569?text=Hello%20Vision%20Maestro,%20I%20want%20to%20book%20an%20eye%20appointment." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 md:bottom-8 md:right-8 whatsapp-float text-white p-3 md:p-4 rounded-full shadow-2xl hover:scale-110 transition duration-300 z-50 animate__animated animate__bounceIn flex items-center justify-center">
+         <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+    </a>
+
+    <script>
+        // Ensure Lucide icons render after the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        });
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+    <script>
+document.getElementById("waForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const mobile = document.getElementById("mobile").value;
+    const service = document.getElementById("service").value;
+
+    const message = `Hello Vision Maestro,%0A%0AI would like to book an eye test.%0A%0A👤 Name: ${name}%0A📞 Mobile: ${mobile}%0A🩺 Service: ${service}`;
+
+    const phoneNumber = "919381898569"; // Your WhatsApp number
+    const url = `https://wa.me/${phoneNumber}?text=${message}`;
+
+    window.open(url, "_blank");
+});
+</script>
+</body>
+</html>
